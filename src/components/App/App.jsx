@@ -16,7 +16,7 @@ const App = () => {
     { title: PAGES.BACKGROUND, index: 1 },
     { title: PAGES.SKILLS, index: 2 },
   ];
-  const [activePage, setActivePage] = useState(pagesArray[1]);
+  const [activePage, setActivePage] = useState(pagesArray[0]);
 
   useEffect(() => {
     const handleKeyPress = (e) => {
